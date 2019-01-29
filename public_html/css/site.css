@@ -1,0 +1,188 @@
+html,
+body {
+    height: 100%;
+}
+
+.block {
+    margin: 0 0 10px;
+    padding: 20px 15px 1px;
+    background-color: #fff;
+    border: 1px solid #dbe1e8;
+}
+
+.block-color {
+    display: inline-block;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.fc-event {
+    cursor: pointer;
+}
+
+.site-login {
+    max-width: 330px;
+    margin: 150px auto;
+}
+
+.form-action {
+    cursor: pointer;
+}
+
+.block-bg {
+    display: inline-block;
+    width: 60px;
+    height: 11px;
+    border:1px solid #000;
+}
+
+.block-title {
+    margin: -20px -15px 20px;
+    background-color: #f9fafc;
+    border-bottom: 1px solid #eaedf1;
+}
+
+.btn-xs {
+    margin-bottom: 5px;
+}
+
+.img-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 0 0 0 0;
+}
+
+.chat-input {
+    margin: -10px 0 0 0;
+}
+
+.block-title .block-title-font {
+    font-size: 16px;
+    padding: 10px 16px 7px;
+}
+
+.panel-footer p{
+    margin: 0 0 0 0;
+}
+
+.navbar-default {
+    background: #fff;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+.current-chat-area {
+    padding-top: 10px;
+    overflow: auto;
+    height: 40vh;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
