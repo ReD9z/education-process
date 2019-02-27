@@ -1,3 +1,11 @@
-### http://w905037f.beget.tech/
-### Доступы: admin/resident || student/resident || teacher/resident
+## Система управления учебным процессом
+
+## Доступы
+```
+### Адрес: http://w905037f.beget.tech/
+### Логин: admin
+### Пароль resident
+
+```
+
 
