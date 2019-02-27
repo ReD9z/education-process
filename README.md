@@ -2,7 +2,7 @@
 #### Доступы
 ```
 ### Адрес: http://w905037f.beget.tech/
-### Логин: student
+### Логин: admin
 ### Пароль: resident
 
 ```
